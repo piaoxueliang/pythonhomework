@@ -1,0 +1,6 @@
+x=str(input())
+y=x[::-1]
+if y==x:
+    print("OK")
+else:
+    print("Boo")

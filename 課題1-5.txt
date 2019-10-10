@@ -1,0 +1,5 @@
+x=int(input())
+if x+2500==3500*9:
+ print("OK")
+else:
+    print("Boo")

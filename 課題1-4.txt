@@ -1,0 +1,12 @@
+print("借金の総額")
+x=int(input())
+print("ひと月の返済額")
+y=int(input())
+num=x/y
+print(num,"年")
+print("ボーナスからの返済金額")
+z=int(input())
+print(num-(x/(y+z)),"年早まる")
+print("返済を完了したい年を入力")
+year=int(input())
+print((x-((year-2019)*5000))/(year-2019),"円")

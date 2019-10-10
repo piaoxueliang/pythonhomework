@@ -1,0 +1,5 @@
+print("名前を入力")
+x=input()
+print("年齢を入力")
+y=int(input())
+print(2019+100-y)
